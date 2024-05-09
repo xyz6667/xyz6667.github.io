@@ -1,14 +1,52 @@
----
-layout: default
----
-<h1>人员</h1>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  <body>
+    <nav>
+  
+    <a href="/" 
+      >
+      主页
+    </a>
+  
+    <a href="/about.html" 
+      >
+      关于
+    </a>
+  
+    <a href="/blog.html" 
+      >
+      博客
+    </a>
+  
+    <a href="/staff.html" 
+      class="current" >
+      人员
+    </a>
+  
+</nav>
+    <h1>人员</h1>
 
 <ul>
-  {% for author in site.authors %}
+  
     <li>
-      <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
-      <h3>{{ author.position }}</h3>
-      <p>{{ author.content | markdownify }}</p>
+      <h2><a href="/authors/jill.html">Jill Smith</a></h2>
+      <h3>Chief Editor</h3>
+      <p><p>Jill 是一个狂热的水果种植者，他住在法国南部。</p>
+</p>
     </li>
-  {% endfor %}
+  
+    <li>
+      <h2><a href="/authors/ted.html">Ted Doe</a></h2>
+      <h3>Writer</h3>
+      <p><p>Ted 吃了一辈子水果。</p>
+</p>
+    </li>
+  
 </ul>
+  </body>
+</html>
