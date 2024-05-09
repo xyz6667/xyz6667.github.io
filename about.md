@@ -1,6 +1,7 @@
 ---
-layout: default
-title: 关于
+layout: page
+title: About
 ---
-# 关于 页
-本页记录一些关于我的信息。
+
+- 个人博客
+- 正在考研备考
