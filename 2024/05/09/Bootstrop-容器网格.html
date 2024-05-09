@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrop 容器网格</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" />
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Bootstrop 容器网格</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="Bootstrop 容器网格" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/2024/05/09/Bootstrop-%E5%AE%B9%E5%99%A8%E7%BD%91%E6%A0%BC.html" />
+<meta property="og:url" content="http://localhost:4000/2024/05/09/Bootstrop-%E5%AE%B9%E5%99%A8%E7%BD%91%E6%A0%BC.html" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-05-09T00:00:00+08:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Bootstrop 容器网格" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-05-09T00:00:00+08:00","datePublished":"2024-05-09T00:00:00+08:00","headline":"Bootstrop 容器网格","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2024/05/09/Bootstrop-%E5%AE%B9%E5%99%A8%E7%BD%91%E6%A0%BC.html"},"url":"http://localhost:4000/2024/05/09/Bootstrop-%E5%AE%B9%E5%99%A8%E7%BD%91%E6%A0%BC.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+  <body>
+    <nav>
+  
+    <a href="/" 
+      >
+      主页
+    </a>
+  
+    <a href="/about.html" 
+      >
+      关于
+    </a>
+  
+    <a href="/blog.html" 
+      >
+      博客
+    </a>
+  
+</nav>
+    <h1>Bootstrop 容器网格</h1>
+
+<p>
+  09 May 2024
+  
+  
+</p>
+
+<html>
+
+<body>
+  
+<div class="container p-5 my-5 border">
+  <h1>我的第一个 Bootstrap 页面</h1>
+  <p>这个容器有一个边框和一些边距。</p>
+</div>
+
+<div class="container p-5 my-5 bg-dark text-white">
+  <h1>我的第一个 Bootstrap 页面</h1>
+  <p>这个容器具有深色背景色和白色文本，以及一些额外的边距。</p>
+</div>
+
+<div class="container p-5 my-5 bg-primary text-white">
+  <h1>我的第一个 Bootstrap 页面</h1>
+  <p>这个容器具有蓝色背景色和白色文本，以及一些额外的边距。</p>
+</div>
+
+<div class="container-fluid mt-3">
+    <h1>创建相等宽度的列</h1>
+    <p>创建三个相等宽度的列! 尝试在 class="row" 的 div 中添加新的 class="col" div,会显示四个等宽的列。</p>
+    <div class="row">
+      <div class="col p-3 bg-primary text-white">.col</div>
+      <div class="col p-3 bg-dark text-white">.col</div>
+      <div class="col p-3 bg-primary text-white">.col</div>
+    </div>
+</div>
+
+<div class="container-fluid mt-3">
+    <h1>等宽响应式列</h1>
+    <p>重置浏览器大小查效果。</p>
+    <p> 在移动设备上，即屏幕宽度小于 576px 时，四个列将会上下堆叠排版。</p>
+    <div class="row">
+      <div class="col-sm-3 p-3 bg-primary text-white">.col</div>
+      <div class="col-sm-3 p-3 bg-dark text-white">.col</div>
+      <div class="col-sm-3 p-3 bg-primary text-white">.col</div>
+      <div class="col-sm-3 p-3 bg-dark text-white">.col</div>
+    </div>
+</div>
+
+<div class="container-fluid mt-3">
+    <h1>不等宽响应式列</h1>
+    <p>重置浏览器大小查效果。</p>
+    <p>在移动设备上，即屏幕宽度小于 576px 时，两个列将会上下堆叠排版。</p>
+    <div class="row">
+      <div class="col-sm-4 p-3 bg-primary text-white">.col</div>
+      <div class="col-sm-8 p-3 bg-dark text-white">.col</div>
+    </div>
+</div>
+
+<div class="container-fluid mt-3">
+    <h2>设置某一列宽度</h2>
+    <p>如果只设置一列的宽度，其他列会自动均分剩下的宽度。 以下实例将列宽度为 25%、50%、25%:</p>
+    <div class="row">
+      <div class="col bg-success">.col</div>
+      <div class="col-6 bg-warning">.col-6</div>
+      <div class="col bg-success">.col</div>
+    </div>
+</div>
+
+<div class="container-fluid mt-3">
+    <h1>平板与桌面的网格布局</h1>
+    <p>以下实例演示了在桌面设备的显示器上两个列的宽度各占 50%，如果在平板端则左边的宽度为 25%，右边的宽度为 75%, 在移动手机等小型设备上会堆叠显示。
+  </p>
+    <p>重置浏览器窗口大小，查看效果。</p>
+    <div class="row">
+      <div class="col-sm-3 col-md-6 col-lg-4 col-xl-2 p-3 bg-primary text-white">.col</div>
+      <div class="col-sm-9 col-md-6 col-lg-8 col-xl-10 p-3 bg-dark text-white">.col</div>
+    </div>
+</div>
+
+<div class="container-fluid mt-3">
+    <h1>平板、桌面、大桌面显示器、超大桌面显示器</h1>
+    <p>以下实例在平板、桌面、大桌面显示器、超大桌面显示器的宽度比例为分别为:25%/75%、50%/50%、33.33%/66.67%、16.67/83.33%, 在移动手机等小型设备上会堆叠显示。</p>
+    <p>重置浏览器窗口大小，查看效果。</p>
+    <div class="row">
+      <div class="col-sm-3 col-md-6 col-lg-4 col-xl-2 p-3 bg-primary text-white">.col</div>
+      <div class="col-sm-9 col-md-6 col-lg-8 col-xl-10 p-3 bg-dark text-white">.col</div>
+    </div>
+</div>
+
+<div class="container-fluid mt-3">
+    <h1>偏移列</h1>
+    <p>.offset-md-4 是把.col-md-4 往右移了四列格。</p>
+    <div class="row">
+        <div class="col-md-4 p-3 bg-primary text-white">.col-md-4</div>
+        <div class="col-md-4 offset-md-4 bg-dark text-white">.col-md-4 .offset-md-4</div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 offset-md-3 bg-primary text-white">.col-md-3 .offset-md-3</div>
+        <div class="col-md-3 offset-md-3 bg-dark text-white">.col-md-3 .offset-md-3</div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 offset-md-3 bg-primary text-white">.col-md-6 .offset-md-3</div>
+      </div>
+</div>
+
+</body>
+</html>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
