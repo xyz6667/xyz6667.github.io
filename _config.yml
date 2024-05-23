@@ -9,11 +9,14 @@ cover_image: /bg.jpg
 
 # Gems
 plugins:
+  - "kramdown-plantuml"
   - jekyll-gist
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-paginate
+
 
 # Optimize Jekyll
 exclude:
@@ -58,7 +61,3 @@ author:
   url: https://github.com/xyz6667
   email: x754745904@163.com
 
-assets:
-  sources:
-    - _assets/css
-    - _assets/js

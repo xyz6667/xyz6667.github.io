@@ -7,22 +7,22 @@
   <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css">
   <link rel="stylesheet" href="/assets/styles.css"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>PlantUML使用 | xyz</title>
+<title>数学符号公式使用 | xyz</title>
 <meta name="generator" content="Jekyll v3.9.5" />
-<meta property="og:title" content="PlantUML使用" />
+<meta property="og:title" content="数学符号公式使用" />
 <meta name="author" content="xyz" />
 <meta property="og:locale" content="zh_CN" />
-<meta name="description" content="学习使用 PlantUML" />
-<meta property="og:description" content="学习使用 PlantUML" />
-<link rel="canonical" href="http://localhost:4000/2024/05/23/PlantUML%E4%BD%BF%E7%94%A8/" />
-<meta property="og:url" content="http://localhost:4000/2024/05/23/PlantUML%E4%BD%BF%E7%94%A8/" />
+<meta name="description" content="希腊字母" />
+<meta property="og:description" content="希腊字母" />
+<link rel="canonical" href="http://localhost:4000/2024/05/23/%E6%95%B0%E5%AD%97%E7%AC%A6%E5%8F%B7%E5%85%AC%E5%BC%8F%E4%BD%BF%E7%94%A8/" />
+<meta property="og:url" content="http://localhost:4000/2024/05/23/%E6%95%B0%E5%AD%97%E7%AC%A6%E5%8F%B7%E5%85%AC%E5%BC%8F%E4%BD%BF%E7%94%A8/" />
 <meta property="og:site_name" content="xyz" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-05-23T15:41:25+08:00" />
+<meta property="article:published_time" content="2024-05-23T16:34:25+08:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="PlantUML使用" />
+<meta property="twitter:title" content="数学符号公式使用" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"xyz","url":"https://github.com/xyz6667"},"dateModified":"2024-05-23T15:41:25+08:00","datePublished":"2024-05-23T15:41:25+08:00","description":"学习使用 PlantUML","headline":"PlantUML使用","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2024/05/23/PlantUML%E4%BD%BF%E7%94%A8/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/txa.png"},"name":"xyz"},"url":"http://localhost:4000/2024/05/23/PlantUML%E4%BD%BF%E7%94%A8/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"xyz","url":"https://github.com/xyz6667"},"dateModified":"2024-05-23T16:34:25+08:00","datePublished":"2024-05-23T16:34:25+08:00","description":"希腊字母","headline":"数学符号公式使用","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2024/05/23/%E6%95%B0%E5%AD%97%E7%AC%A6%E5%8F%B7%E5%85%AC%E5%BC%8F%E4%BD%BF%E7%94%A8/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/txa.png"},"name":"xyz"},"url":"http://localhost:4000/2024/05/23/%E6%95%B0%E5%AD%97%E7%AC%A6%E5%8F%B7%E5%85%AC%E5%BC%8F%E4%BD%BF%E7%94%A8/"}</script>
 <!-- End Jekyll SEO tag -->
 <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="xyz" />
 <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
@@ -73,34 +73,42 @@
 
       <div class="content pure-u-1 pure-u-md-1-2"><main>
   <article class="post">
-  <h1 class="post-title">PlantUML使用</h1>
-  <div class="post-meta"><time datetime="2024-05-23T15:41:25+08:00" itemprop="datePublished">23 May 2024</time></div>
+  <h1 class="post-title">数学符号公式使用</h1>
+  <div class="post-meta"><time datetime="2024-05-23T16:34:25+08:00" itemprop="datePublished">23 May 2024</time></div>
 
-  <h1 id="学习使用-plantuml">学习使用 PlantUML</h1>
+  <h1 id="希腊字母">希腊字母</h1>
 
-<h2 id="配置">配置</h2>
-<p>在Gemfile中添加 kramdown-plantuml</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem "kramdown-plantuml"
-gem 'jekyll-compose', group: [:jekyll_plugins]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $$
+ \alpha \tag1
+ $$
 </code></pre></div></div>
-<p>在 _config.yaml 中的 plugins 中添加</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>plugins:
-  - "kramdown-plantuml"
-</code></pre></div></div>
-<p>随后执行命令</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle install
-</code></pre></div></div>
-<p>最后执行，验证是否能用</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle exec jekyll serve
-</code></pre></div></div>
-<h2 id="测试">测试</h2>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    ```plantuml
-    a --&gt; b
-    ```
-// 检验效果是否如下所示
-</code></pre></div></div>
+<p>如下所示：</p>
 
-<div class="plantuml"><svg contentStyleType='text/css' height='111px' preserveAspectRatio='none' style='width:65px;height:111px;background:#FFFFFF;' version='1.1' viewBox='0 0 65 111' width='65px' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg' zoomAndPan='magnify'><defs/><g><line style='stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;' x1='16' x2='16' y1='39.1201' y2='73.1201'/><line style='stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;' x1='48' x2='48' y1='39.1201' y2='73.1201'/><rect fill='#E2E2F0' height='33.1201' rx='2.5' ry='2.5' style='stroke:#181818;stroke-width:0.5;' width='22' x='5' y='5'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='8' x='12' y='28.0439'>a</text><rect fill='#E2E2F0' height='33.1201' rx='2.5' ry='2.5' style='stroke:#181818;stroke-width:0.5;' width='22' x='5' y='72.1201'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='8' x='12' y='95.1641'>a</text><rect fill='#E2E2F0' height='33.1201' rx='2.5' ry='2.5' style='stroke:#181818;stroke-width:0.5;' width='22' x='37' y='5'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='8' x='44' y='28.0439'>b</text><rect fill='#E2E2F0' height='33.1201' rx='2.5' ry='2.5' style='stroke:#181818;stroke-width:0.5;' width='22' x='37' y='72.1201'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='8' x='44' y='95.1641'>b</text><polygon fill='#181818' points='36,51.1201,46,55.1201,36,59.1201,40,55.1201' style='stroke:#181818;stroke-width:1.0;'/><line style='stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;' x1='16' x2='42' y1='55.1201' y2='55.1201'/></g></svg></div>
+\[\alpha \tag1\]
+
+<h1 id="公式">公式</h1>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $$
+ \frac{abc123}{xyz123}
+ $$
+</code></pre></div></div>
+<p>如下所示：
+ \(\frac{abc123}{xyz123}\)</p>
+
+<p># 矩阵</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $$
+ \left|\begin{matrix}
+    a &amp; b &amp; c \\
+    d &amp; e &amp; f \\
+    g &amp; h &amp; i
+   \end{matrix} \right|
+ $$
+</code></pre></div></div>
+<p>\(\left|\begin{matrix}
+    a &amp; b &amp; c \\
+    d &amp; e &amp; f \\
+    g &amp; h &amp; i
+   \end{matrix} \right|\)</p>
+
 
   
     
@@ -121,9 +129,9 @@ gem 'jekyll-compose', group: [:jekyll_plugins]
   <ul class="related-posts">
     
       <li>
-        <a href="/2024/05/23/%E6%95%B0%E5%AD%97%E7%AC%A6%E5%8F%B7%E5%85%AC%E5%BC%8F%E4%BD%BF%E7%94%A8/">
-          数学符号公式使用
-          <small><time datetime="2024-05-23T16:34:25+08:00">23 May 2024</time></small>
+        <a href="/2024/05/23/PlantUML%E4%BD%BF%E7%94%A8/">
+          PlantUML使用
+          <small><time datetime="2024-05-23T15:41:25+08:00">23 May 2024</time></small>
         </a>
       </li>
     
@@ -147,17 +155,6 @@ gem 'jekyll-compose', group: [:jekyll_plugins]
 </footer>
 </div>
       <div class="sidebar-right pure-u-1 pure-u-md-1-4">
-<div  class="toc-wrapper">
-  <h2 class="toc-title">Table of Contents</h2>
-    <nav class="toc-nav">
-      <ul class="toc">
-  <li><a href="#配置">配置</a></li>
-  <li><a href="#测试">测试</a></li>
-</ul>
-
-  </nav>
-</div>
-
 </div>
     </div>
 
@@ -201,5 +198,7 @@ gem 'jekyll-compose', group: [:jekyll_plugins]
     }
   }
 </script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </body>
 </html>
